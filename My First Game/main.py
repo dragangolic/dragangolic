@@ -1,4 +1,4 @@
-print("Hi, welcome to my game!")
+print("Hi, welcome to my first game!")
 print()
 print("This game is for all and you have to answer to all questions in such a way that keeps you in the game."
       "Wrong answer and you lose. Good luck!")
