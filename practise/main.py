@@ -116,3 +116,50 @@ print(isinstance(b1, Book))  # True
 print(isinstance(n1, Newspaper))  # True
 print(isinstance(n2, Book))  # False
 print(isinstance(n2, object))  # True
+
+#  CLASS METHODS AND MEMBERS
+
+
+class Book:
+    #  TODO: PROPERTIES DEFINED AT THE CLASS LEVEL ARE SHARED BY ALL INSTANCES
+    BOOK_TYPES = ("HARDCOVER", "PAPER")
+
+    #  TODO: DOUBLE- UNDERSCORE PROPERTIES ARE HIDDEN FROM OTHER CLASSES
+    __booklist = None
+
+    #  TODO: CREATE A CLASS METHOD
+    @classmethod
+    def getbooktypes(cls):
+        return cls.BOOK_TYPES
+
+    #  TODO: CREATE A STATIC METHOD
+    @staticmethod
+    def getbooklist():
+        if Book.__booklist == None:
+            Book.__booklist = []
+        return Book.__booklist
+
+    # Instance methods receive a specific object instance as an argument
+    #  and operate on data specific to that object instance
+    def setTitle(self, newtitle):
+        self.title = newtitle
+
+    def __init__(self, title, booktype):
+        self.title = title
+        if (not booktype in Book.BOOK_TYPES):
+            raise ValueError(f"{booktype} is not valid book type")
+        else:
+            self.booktype = booktype
+
+# TODO: ACCESS THE CLASS ATTRIBUTE
+print("Book types: ", Book.getbooktypes())
+
+# TODO: CREATE SOME BOOK INSTANCES
+b1 = Book("Title 1", "HARDCOVER")
+b2 = Book("Title 2", "PAPERBACK")
+
+# TODO: USE THE STATIC METHOD TO ACCESS A SINGLETON OBJECT
+thebooks = Book.getbooklist()
+thebooks.append(b1)
+thebooks.append(b2)
+print(thebooks)
