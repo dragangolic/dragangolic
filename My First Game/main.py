@@ -45,6 +45,5 @@ elif character == "cloud":
 if character == "mattress":
     print("  ☁  " + name, " u must be a dreamer! That is cool! You Won!!!")
 else:
-    # print("Sorry you lose!!")
     print("It was pleasure to play together")
 print("The Game is Over")
