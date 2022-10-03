@@ -34,7 +34,6 @@ def hangman():
             if user_letter in word_letters:
                 word_letters.remove(user_letter)
 
-
             else:
                 lives = lives - 1
                 print('Letter is not in word.')
