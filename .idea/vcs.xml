@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JupyterWorkflow/JupyterWorkflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyEightGame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyFifthGame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyFourthGame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MySecondGame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MySevethGame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyThirdGame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PasswordManager" vcs="Git" />
+  </component>
+</project>
