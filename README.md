@@ -32,7 +32,7 @@ Interested in any Python or SQL project. If it involves data, I'm in.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dragan-golic-aa0817227)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:golicdragan0@gmail.com)
 
-![Dragan's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark)
+![Dragan's GitHub stats](https://github-readme-stats.vercel.app/api?username=dragangolic&show_icons=true&theme=github_dark)
 
 <!---
 dragangolic/dragangolic is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
